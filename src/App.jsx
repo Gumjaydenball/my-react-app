@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import myImage from './assets/images/Contact.png';
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
@@ -127,6 +128,12 @@ const HomePage = () => (
       Whether you need project oversight, back-office support, 
       or help serving your members or customers, I’m here to help.
     </p>
+
+    <img src={myImage} alt="Description" 
+      width= "300px"
+      height= "auto"
+  />
+
   </div>
 );
 
