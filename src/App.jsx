@@ -478,12 +478,10 @@ const ContactPage = () => (
         marginBottom: '16px',
         lineHeight: '1.6'
       }}>
-        Get in touch with us:
+        Get in touch with me:
       </p>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <p style={{ color: '#4B5563', margin: 0 }}>Email: contact@example.com</p>
-        <p style={{ color: '#4B5563', margin: 0 }}>Phone: (555) 123-4567</p>
-        <p style={{ color: '#4B5563', margin: 0 }}>Address: 123 Main St, City, State</p>
+        <p style={{ color: '#4B5563', margin: 0 }}>Email: ncoley1978@gmail.com</p>
       </div>
     </div>
   </div>
